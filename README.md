@@ -41,9 +41,9 @@ $ npm install extended-error
         ```js
         var error = new extended-error("ERROR_101")
         Output: 
-            error.message => "Error has occured"
-            error.http_code => 400
-            error.error_code => "ERROR_101"
+            error.message      => "Error has occured"
+            error.http_code    => 400
+            error.errorCode    => "ERROR_101"
             error.user_message => "Please try again later"
         ```
 
@@ -52,7 +52,8 @@ $ npm install extended-error
         ```js
         var error = new extended-error("DB_101", {err : "Network Error", err2 : "DB error"})
         Output:
-            error.msg => "Error in DB operation. Error is Network Error"
-            error.master_code => "DB_101"
+            error.msg          => "Error in DB operation. Error is Network Error"
+            error.master_code  => "400"
             error.user_message => "DB error"
+            error.errorCode    => "DB_101"
         ```
