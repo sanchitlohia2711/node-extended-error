@@ -1,0 +1,29 @@
+{
+  "name": "extended-error",
+  "version": "1.0.0",
+  "description": "Allows creating instance of Error with additional properties and customizing properties through error subsitution",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "author": "Sanchit Lohia <sanchitlohia27@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchitlohia2711/node-extended-error.git"
+  },
+  "dependencies": {
+    "lodash": "^4.14.1"
+  },
+  "keywords": [
+    "error",
+    "extended",
+    "extended-error"
+  ],
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "mocha": "^3.0.1",
+    "should": "^10.0.0",
+    "supertest": "^2.0.0"
+  }
+}
