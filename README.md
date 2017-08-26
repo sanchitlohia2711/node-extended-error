@@ -2,6 +2,10 @@
 ## Description:
  - Allows you to create of a instance of Error with additional properties specfied by you through a error map supplied by user(See example of a sample error map below).
  - Allows variables subsitution in the additional properties
+ - It extends from Error
+    ```js
+    util.inherits(extended-error, Error);
+    ```
 
 ## Installation
 
