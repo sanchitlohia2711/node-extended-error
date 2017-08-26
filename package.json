@@ -1,6 +1,6 @@
 {
   "name": "extended-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Allows creating instance of Error with additional properties and customizing properties through error subsitution",
   "main": "index.js",
   "scripts": {
