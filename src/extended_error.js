@@ -5,7 +5,7 @@ var
 
 var extendedError = function (error_map, errorCode, options) {
   this.errorCode = errorCode;
-  var mappedErrorProperties  = error_map[errorCode] || {};
+  var mappedErrorProperties  = _.clone(error_map[errorCode] || {});
    
   //Check type of mapped error properties
   if(typeof(mappedErrorProperties) !== 'object')
